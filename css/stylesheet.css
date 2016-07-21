@@ -38,8 +38,19 @@ img {
 }
 
 
+.circular {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+        overflow:hidden;
+}
 
 
+.me {
+  background: img src="images/me/1491786_10156719412990241_1414870557112898588_n.jpg" no-repeat;
+}
 
 
 .chapter-3 {
