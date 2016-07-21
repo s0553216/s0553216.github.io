@@ -1,0 +1,76 @@
+
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+font-family: 'Raleway', sans-serif;
+background-color: #E8F6F3;
+}
+
+
+
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  padding: 20px;
+}
+
+
+@media only screen and (min-width: 720px) {
+  .row {
+    padding: 1.5em 4em;
+  }
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+}
+
+
+
+
+
+
+.chapter-3 {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chapter-3__box {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.chapter-3 a {
+  color: black;
+}
+
+.chapter-3 a:hover {
+  color: white;
+}
+
+.chapter-3 a:hover h1,
+.chapter-3 a:hover h3 {
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);
+}
